@@ -13,7 +13,7 @@ public final class Controller extends Group {
     public static final int X = 0;
     public static final int Y = 0;
     public static final int W = World.W;
-    public static final int H = World.H - Arena.H;
+    public static final int H = 4;
 
     // --
 

@@ -13,4 +13,9 @@
    eJxjYCAN7CJS3Q4g3kmCuVcJyF8G4itQ9lscerYC8TYS3dKGx84LQHyRgFsIAZD52Py2nQT91AC4whdb2BCKC3wAV9jA4mYOFnt2oakhBsDiZg4RamDgLRY1xMYDLkBMWFESnqMAFQAAOg0gmw==
   </data>
  </layer>
+ <layer name="aabb" width="20" height="15" visible="0" opacity="0.47">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAN9DESr45YtaSah8tcXHaS6xZqm4duxmAAtIwnbOK45Eh1Cz7zcLkFn92jYGgAAJ24EeE=
+  </data>
+ </layer>
 </map>

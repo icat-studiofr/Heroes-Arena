@@ -33,13 +33,15 @@ public final class ArenaScreen extends ScreenAdapter{
 
         stage = new Stage(new StretchViewport(World.W, World.H));
         Gdx.input.setInputProcessor(stage);
-        stage.addActor(new Arena());
-        stage.addActor(new Controller());
 
         gridManager = new GridManager();
         tiledManager = new TiledManager(boardKey, stage.getBatch());
 
-        Arena arena = (Arena) stage.getRoot().findActor(Arena.NAME);
+        Arena arena = new Arena(tiledManager);
+
+        stage.addActor(arena);
+        stage.addActor(new Controller());
+
         Hero hero = new Hero(new Texture("heroes/hitman.png"));
         arena.addActor(hero);
         arena.setHero(hero);
